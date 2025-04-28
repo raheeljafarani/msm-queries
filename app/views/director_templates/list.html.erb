@@ -1,0 +1,8 @@
+<h1> List of all directors </h1>
+<% Director.all.each do |a_director| %>
+
+<li>
+<%= a_director.name %> (<%= a_director.dob %>
+</li>
+
+<% end %>
